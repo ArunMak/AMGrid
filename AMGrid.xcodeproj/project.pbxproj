@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0630DA9116988EA095143299 /* libPods-AMGrid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA25F9776EC4B1E0DFA63DBE /* libPods-AMGrid.a */; };
 		B6EE4E552162B69400C0B11B /* AMGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EE4E532162B69400C0B11B /* AMGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6EE4E5F2162B83300C0B11B /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE4E5B2162B83100C0B11B /* ListCollectionViewCell.swift */; };
+		B6EE4E602162B83300C0B11B /* ListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6EE4E5C2162B83200C0B11B /* ListCollectionViewCell.xib */; };
+		B6EE4E612162B83300C0B11B /* GridCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6EE4E5D2162B83200C0B11B /* GridCollectionViewCell.xib */; };
+		B6EE4E622162B83300C0B11B /* GridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE4E5E2162B83200C0B11B /* GridCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75B570160DFF3EAFFBAE808C /* Pods-AMGrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMGrid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMGrid/Pods-AMGrid.debug.xcconfig"; sourceTree = "<group>"; };
 		B6EE4E502162B69400C0B11B /* AMGrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMGrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6EE4E532162B69400C0B11B /* AMGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMGrid.h; sourceTree = "<group>"; };
 		B6EE4E542162B69400C0B11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6EE4E5B2162B83100C0B11B /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		B6EE4E5C2162B83200C0B11B /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
+		B6EE4E5D2162B83200C0B11B /* GridCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridCollectionViewCell.xib; sourceTree = "<group>"; };
+		B6EE4E5E2162B83200C0B11B /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCollectionViewCell.swift; sourceTree = "<group>"; };
+		CA25F9776EC4B1E0DFA63DBE /* libPods-AMGrid.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMGrid.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5226BE594CEE9472D2C0C66 /* Pods-AMGrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMGrid.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMGrid/Pods-AMGrid.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0630DA9116988EA095143299 /* libPods-AMGrid.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31A972F529A6C0541F3DD0C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75B570160DFF3EAFFBAE808C /* Pods-AMGrid.debug.xcconfig */,
+				F5226BE594CEE9472D2C0C66 /* Pods-AMGrid.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39000ABB2821636CB55DC40F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA25F9776EC4B1E0DFA63DBE /* libPods-AMGrid.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B6EE4E462162B69400C0B11B = {
 			isa = PBXGroup;
 			children = (
 				B6EE4E522162B69400C0B11B /* AMGrid */,
 				B6EE4E512162B69400C0B11B /* Products */,
+				31A972F529A6C0541F3DD0C0 /* Pods */,
+				39000ABB2821636CB55DC40F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,6 +78,10 @@
 		B6EE4E522162B69400C0B11B /* AMGrid */ = {
 			isa = PBXGroup;
 			children = (
+				B6EE4E5E2162B83200C0B11B /* GridCollectionViewCell.swift */,
+				B6EE4E5D2162B83200C0B11B /* GridCollectionViewCell.xib */,
+				B6EE4E5B2162B83100C0B11B /* ListCollectionViewCell.swift */,
+				B6EE4E5C2162B83200C0B11B /* ListCollectionViewCell.xib */,
 				B6EE4E532162B69400C0B11B /* AMGrid.h */,
 				B6EE4E542162B69400C0B11B /* Info.plist */,
 			);
@@ -70,6 +106,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6EE4E582162B69400C0B11B /* Build configuration list for PBXNativeTarget "AMGrid" */;
 			buildPhases = (
+				03DA2A03CE73C6B758FED609 /* [CP] Check Pods Manifest.lock */,
 				B6EE4E4B2162B69400C0B11B /* Sources */,
 				B6EE4E4C2162B69400C0B11B /* Frameworks */,
 				B6EE4E4D2162B69400C0B11B /* Headers */,
@@ -95,6 +132,7 @@
 				TargetAttributes = {
 					B6EE4E4F2162B69400C0B11B = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -121,16 +159,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EE4E612162B83300C0B11B /* GridCollectionViewCell.xib in Resources */,
+				B6EE4E602162B83300C0B11B /* ListCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03DA2A03CE73C6B758FED609 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMGrid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B6EE4E4B2162B69400C0B11B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EE4E622162B83300C0B11B /* GridCollectionViewCell.swift in Sources */,
+				B6EE4E5F2162B83300C0B11B /* ListCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +315,9 @@
 		};
 		B6EE4E592162B69400C0B11B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B570160DFF3EAFFBAE808C /* Pods-AMGrid.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -265,6 +330,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.houses.AMGrid;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -272,7 +338,9 @@
 		};
 		B6EE4E5A2162B69400C0B11B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5226BE594CEE9472D2C0C66 /* Pods-AMGrid.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
